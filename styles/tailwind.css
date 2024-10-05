@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* ------Color variables------ */
+    --amber_300: #fed35b;
+    --black_900: #010000;
+    --black_900_01: #020000;
+    --black_900_02: #000000;
+    --black_900_14: #00000014;
+    --black_900_19: #00000019;
+    --black_900_33: #00000033;
+    --blue_gray_100: #d0cfd9;
+    --blue_gray_100_01: #dacf44;
+    --blue_gray_400: #8784a6;
+    --blue_gray_50: #f1f1f1;
+    --blue_gray_600: #645187;
+    --blue_gray_900: #352a2a;
+    --deep_purple_100: #c3abff;
+    --gray_200: #f0f0f0;
+    --gray_200_01: #e9ebec;
+    --gray_200_02: #eae9e9;
+    --gray_300: #e0e0e0;
+    --gray_800: #3e3e3e;
+    --gray_800_01: #383838;
+    --gray_900: #232323;
+    --gray_900_00: #1b1b00;
+    --gray_900_01: #262626;
+    --gray_900_1b: #1c1c1c;
+    --gray_900_6b: #1c1c6b;
+    --indigo_900: #251f5c;
+    --indigo_900_4f: #251f5c4f;
+    --light_blue_600: #01a5e9;
+    --light_green_400: #aadd5c;
+    --red_300: #af8166;
+    --white_a700: #fffafc;
+    --white_a700_01: #ffffff;
+  
+    /* ------Shadow variables------ */
+    --shadow-xs: 0 4px 69px 0 #251f5c4f;
+  
+    /* ------Border radius variables------ */
+    --radius-xs: 3px;
+    --radius-sm: 6px;
+    --radius-md: 14px;
+    --radius-lg: 16px;
+    --radius-xl: 18px;
+    --radius-2xl: 20px;
+    --radius-3xl: 22px;
+    --radius-4xl: 24px;
+    --radius-5xl: 26px;
+    --radius-6xl: 28px;
+    --radius-7xl: 30px;
+    --radius-8xl: 32px;
+    --radius-9xl: 34px;
+    --radius-10xl: 36px;
+    --radius-11xl: 38px;
+    --radius-12xl: 42px;
+    --radius-13xl: 44px;
+    --radius-14xl: 46px;
+    --radius-15xl: 48px;
+    --radius-16xl: 50px;
+    --radius-17xl: 52px;
+    --radius-18xl: 58px;
+    --radius-19xl: 62px;
+    --radius-20xl: 66px;
+    
+    /* ------Spacing variables------ */
+    --space-xs: 0.13rem;
+    --space-sm: 0.25rem;
+    --space-md: 0.38rem;
+    --space-lg: 0.5rem;
+    --space-xl: 0.63rem;
+    --space-2xl: 0.75rem;
+    --space-3xl: 0.88rem;
+    --space-4xl: 1rem;
+    --space-5xl: 1.13rem;
+    --space-6xl: 1.25rem;
+    --space-7xl: 1.38rem;
+    --space-8xl: 1.5rem;
+    --space-9xl: 1.63rem;
+    --space-10xl: 2rem;
+    --space-11xl: 2.13rem;
+    --space-12xl: 2.25rem;
+    --space-13xl: 2.38rem;
+    --space-14xl: 2.63rem;
+    --space-15xl: 2.75rem;
+    --space-16xl: 3.13rem;
+    
+  }
+  [type="text"],
+  input:where(:not([type])),
+  [type="email"],
+  [type="url"],
+  [type="password"],
+  [type="number"],
+  [type="date"],
+  [type="datetime-local"],
+  [type="month"],
+  [type="search"],
+  [type="tel"],
+  [type="time"],
+  [type="week"],
+  [multiple],
+  textarea,
+  select {
+      appearance: initial;
+      background-color: initial;
+      border: initial;
+      border-width: 0;
+  }
+}
+  @layer components {
+      /*---------------------------------*/
+      /* Container CSS */
+      /*---------------------------------*/
+      .container-xs {
+          @apply w-full mx-auto max-w-[85.38rem];
+      }
+  }
+  

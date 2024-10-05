@@ -1,0 +1,128 @@
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/TTTravelsNextTrialRegular.ttf");
+  font-family: "TT Travels Next Trl";
+  font-weight: 400;
+}
+
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/TTTravelsNextTrialMedium.ttf");
+  font-family: "TT Travels Next Trl";
+  font-weight: 500;
+}
+
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/TTTravelsNextTrialBold.ttf");
+  font-family: "TT Travels Next Trl";
+  font-weight: 700;
+}
+
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/TTTravelsNextTrialExtraBold.ttf");
+  font-family: "TT Travels Next Trl";
+  font-weight: 900;
+}
+
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/MilligramTrialRegular.ttf");
+  font-family: "Milligram Trial";
+  font-weight: 400;
+}
+
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/MilligramTrialMedium.ttf");
+  font-family: "Milligram Trial";
+  font-weight: 500;
+}
+
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/fonts/MilligramTrialBold.ttf");
+  font-family: "Milligram Trial";
+  font-weight: 700;
+}
+
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/DMSansMedium.ttf");
+    font-family: "DM Sans";
+    font-weight: 500;
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/DMSansRegular.ttf");
+    font-family: "DM Sans";
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/DMSansBold.ttf");
+    font-family: "DM Sans";
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/DMSans9ptRegular.ttf");
+    font-family: "DM Sans";
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/InterRegular.ttf");
+    font-family: "Inter";
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/SyneBold.ttf");
+    font-family: "Syne";
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/DMSans9ptRegular.ttf");
+    font-family: "DM Sans";
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/InterRegular.ttf");
+    font-family: "Inter";
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/SyneBold.ttf");
+    font-family: "Syne";
+    font-weight: 700;
+  }
+  
