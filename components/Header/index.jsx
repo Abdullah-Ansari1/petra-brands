@@ -20,7 +20,7 @@ export default function Header({ ...props }) {
           colorScheme="indigo_900"
           className="w-full bg-indigo-900 h-auto  rounded-[28px] text-md px-[1rem] py-[0.5rem] font-dmsans font-normal !text-white-a700 sm:px-[1.25rem]"
         >
-          Let's Talk
+          Let&apos;s Talk
         </Button>
         <Link href="#">
           <Img
