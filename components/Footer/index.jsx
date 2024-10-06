@@ -97,58 +97,13 @@ export default function Footer({ ...props }) {
           </Text>
         </div>
       </div>
-
-      {/* <Text size="texts" as="p" className="ml-[2.38rem] mt-[0.63rem] font-dmsans text-[0.88rem] font-normal uppercase tracking-[-0.06rem] text-black-900_02">
-        Follow Us
-      </Text> */}
-      
-      {/* <div className="ml-[1.00rem] flex flex-1 flex-col md:ml-0 md:self-stretch">
-        <div className="flex items-start justify-between gap-[1.25rem] sm:flex-col">
-          <div className="mb-[0.38rem] flex w-[34%] items-center justify-between gap-[1.25rem] sm:w-full">
-            <Img src="img_facebook.svg" width={32} height={32} alt="Facebook Icon" className="h-[2.00rem] w-[2.00rem]" />
-            <Link href="facebook" target="_blank" rel="noreferrer" className="md:text-[2.63rem] sm:text-[2.25rem]">
-              <Text as="p" className="text-[2.88rem] font-normal text-gray-900_02">
-                Facebook
-              </Text>
-            </Link>
-          </div>
-        </div>
-
-        <div className="flex flex-col items-end gap-[0.13rem] self-end sm:self-auto">
-          <Link href="#">
-            <Text size="texts" as="p" className="font-dmsans text-[0.88rem] font-normal uppercase tracking-[-0.06rem] text-black-900_02">
-              Contact Us
-            </Text>
-          </Link>
-          <Text size="text10xl" as="p" className="text-[1.88rem] font-normal text-gray-900_02 md:text-[1.75rem] sm:text-[1.63rem]">
-            Info@petrabrands.com
-          </Text>
-        </div>
-      </div> */}
-
-      {/* <ul className="ml-[1.00rem] flex flex-1 flex-col md:ml-0 md:self-stretch">
-        <li>
-          <Link href="#" className="md:text-[2.63rem] sm:text-[2.25rem]">
-            <Text as="p" className="text-[2.88rem] font-normal text-gray-900_02">
-              LinkedIn
-            </Text>
-          </Link>
-        </li>
-        <li>
-          <Link href="#" className="md:text-[2.63rem] sm:text-[2.25rem]">
-            <Text as="p" className="text-[2.88rem] font-normal text-gray-900_02">
-              Instagram
-            </Text>
-          </Link>
-        </li>
-      </ul> */}
       <div className="text-left">
       <Button size="sm" className="ml-auto px-[1rem] w-fit gap-[0.75rem] rounded-[38px] !border-[1.5px] border-[#000] font-normal">
           Sign up to our newsletter
         </Button>
       </div>
       <div className="text-center m-auto w-full">
-        <Heading size="heading10xl" as="h1" className="mx-auto font-tttravelsnexttrl text-[6.56rem] font-black uppercase text-indigo-900 md:text-[3.00rem]">
+        <Heading as="h1" className="mx-auto font-tttravelsnexttrl text-[6rem] !font-black uppercase text-indigo-900 md:text-[3.00rem]">
           Petra Brands
         </Heading>
       </div>
