@@ -1,4 +1,3 @@
-import BrandDevelopmentSection from "./BrandDevelopmentSection"
 import Hero from "./Hero"
 
 const HomeModule = () => {
